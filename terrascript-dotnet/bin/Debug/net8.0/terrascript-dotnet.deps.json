@@ -1,0 +1,118 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "terrascript-dotnet/1.0.0": {
+        "dependencies": {
+          "Terrascript": "1.0.6"
+        },
+        "runtime": {
+          "terrascript-dotnet.dll": {}
+        }
+      },
+      "CliWrap/3.6.0": {
+        "runtime": {
+          "lib/netcoreapp3.0/CliWrap.dll": {
+            "assemblyVersion": "3.6.0.0",
+            "fileVersion": "3.6.0.0"
+          }
+        }
+      },
+      "Handlebars.Net/2.1.4": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Handlebars.dll": {
+            "assemblyVersion": "2.1.4.0",
+            "fileVersion": "2.1.4.0"
+          }
+        }
+      },
+      "Humanizer.Core/2.14.1": {
+        "runtime": {
+          "lib/net6.0/Humanizer.dll": {
+            "assemblyVersion": "2.14.0.0",
+            "fileVersion": "2.14.1.48190"
+          }
+        }
+      },
+      "Microsoft.CSharp/4.7.0": {},
+      "Newtonsoft.Json/13.0.3": {
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.3.27908"
+          }
+        }
+      },
+      "Terrascript/1.0.6": {
+        "dependencies": {
+          "CliWrap": "3.6.0",
+          "Handlebars.Net": "2.1.4",
+          "Humanizer.Core": "2.14.1",
+          "Newtonsoft.Json": "13.0.3"
+        },
+        "runtime": {
+          "lib/net6.0/Terrascript.dll": {
+            "assemblyVersion": "1.0.6.0",
+            "fileVersion": "1.0.6.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "terrascript-dotnet/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CliWrap/3.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AY6LvRZOEYuAiuaWPLnIDddJUnpiPpiSvfoPwweEXI1orRNnsAwf6sOv9Tt0J4GFrlwejFF/INuR57iEKIh7bw==",
+      "path": "cliwrap/3.6.0",
+      "hashPath": "cliwrap.3.6.0.nupkg.sha512"
+    },
+    "Handlebars.Net/2.1.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Od7MWDfGxYKRtxETFMlcvCrY8hAqyuXZDX4EsOfiI/jzh+PVBuVxazHBC1HmVqTKX1JnRtoxIMcH95K9UFlYog==",
+      "path": "handlebars.net/2.1.4",
+      "hashPath": "handlebars.net.2.1.4.nupkg.sha512"
+    },
+    "Humanizer.Core/2.14.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lQKvtaTDOXnoVJ20ibTuSIOf2i0uO0MPbDhd1jm238I+U/2ZnRENj0cktKZhtchBMtCUSRQ5v4xBCUbKNmyVMw==",
+      "path": "humanizer.core/2.14.1",
+      "hashPath": "humanizer.core.2.14.1.nupkg.sha512"
+    },
+    "Microsoft.CSharp/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
+      "path": "microsoft.csharp/4.7.0",
+      "hashPath": "microsoft.csharp.4.7.0.nupkg.sha512"
+    },
+    "Newtonsoft.Json/13.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
+      "path": "newtonsoft.json/13.0.3",
+      "hashPath": "newtonsoft.json.13.0.3.nupkg.sha512"
+    },
+    "Terrascript/1.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Lz5YzrDLzeTSpPyLB2au3MLhgbgXyRf5ytDs0DpNDZTyn0nvU4WxYq83p+Coyx8RLrk6Oi8VQEhQ5SjbsWNo7g==",
+      "path": "terrascript/1.0.6",
+      "hashPath": "terrascript.1.0.6.nupkg.sha512"
+    }
+  }
+}
